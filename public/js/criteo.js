@@ -50,7 +50,7 @@ if (!window.criteo_q || window.criteo_q instanceof Array) {
 			}
 		l(window, 'setTimeout', 0)
 		l(window, 'setInterval', 0)
-		// l(window, 'addEventListener', 1)
+		l(window, 'addEventListener', 1)
 		l(window.document, 'attachEvent', 1)
 		var l = (function() {
 				var a = navigator.userAgent.match(
